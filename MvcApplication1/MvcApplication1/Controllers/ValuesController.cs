@@ -15,6 +15,11 @@ namespace MvcApplication1.Controllers
             return new string[] { "value1", "value2" };
         }
 
+        public string GetString()
+        {
+            return "New branches";
+        }
+
         // GET api/values/5
         public string Get(int id)
         {
